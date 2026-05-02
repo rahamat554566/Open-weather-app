@@ -33,3 +33,46 @@ Start the server using Node.js:
 -->node server.js
 
 The server should now be running at http://localhost:5000.
+
+
+
+
+
+
+
+
+🎨 Frontend Setup & Installation (React + Vite)
+The frontend is built using React with the Vite build tool for a high-performance development experience.
+
+1. 🏗️ Create the Project
+If starting fresh, the project was initialized using:
+
+
+npm create vite@latest frontend -- --template react
+2. 📂 Navigate and Install
+Enter the frontend directory and install the necessary dependencies:
+
+
+cd frontend
+npm install
+3. 🔗 Backend Integration & Dependencies
+To connect the UI to the backend and handle styling, the following packages are required:
+
+Axios: For making API requests to the Node.js server.
+
+Bootstrap 5: For responsive and professional UI components.
+
+Install via terminal:
+
+
+npm install axios bootstrap
+4. 🎨 Global Styling
+To enable Bootstrap throughout the application, add this import to your src/main.jsx:
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+5. 🚀 Run the Application
+Start the development server:
+
+npm run dev
+The application will be accessible at http://localhost:5173.
