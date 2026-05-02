@@ -16,6 +16,8 @@ Open your terminal in the project root and move into the backend folder:
 Install the core MERN backend packages (express, dotenv, cors, and mongoose):
 
 -->npm install
+
+
 4. 🔐 Environment Configuration
 Create a file named .env inside the backend folder and add your credentials:
 
