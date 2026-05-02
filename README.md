@@ -10,6 +10,7 @@ Weather API: Register for a free API key at OpenWeatherMap.
 
 2. 📂 Navigate to Backend
 Open your terminal in the project root and move into the backend folder:
+
 -->cd backend
 
 3. 📦 Install Dependencies
@@ -30,4 +31,5 @@ WEATHER_API_KEY=your_openweather_api_key
 Start the server using Node.js:
 
 -->node server.js
+
 The server should now be running at http://localhost:5000.
