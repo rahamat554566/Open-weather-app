@@ -8,10 +8,12 @@ MongoDB: You will need a database via MongoDB Atlas or MongoDB Compass.
 
 Weather API: Register for a free API key at OpenWeatherMap.
 
+
 2. 📂 Navigate to Backend
 Open your terminal in the project root and move into the backend folder:
 
 -->cd backend
+
 
 3. 📦 Install Dependencies
 Install the core MERN backend packages (express, dotenv, cors, and mongoose):
@@ -26,6 +28,7 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 WEATHER_API_KEY=your_openweather_api_key
 ⚠️ Important: Your .gitignore is already configured to keep backend/.env private. Never share this file!
+
 
 5. 🚀 Run the Server
 Start the server using Node.js:
@@ -49,12 +52,16 @@ If starting fresh, the project was initialized using:
 
 
 npm create vite@latest frontend -- --template react
+
+
 2. 📂 Navigate and Install
 Enter the frontend directory and install the necessary dependencies:
 
 
 cd frontend
 npm install
+
+
 3. 🔗 Backend Integration & Dependencies
 To connect the UI to the backend and handle styling, the following packages are required:
 
@@ -66,11 +73,16 @@ Install via terminal:
 
 
 npm install axios bootstrap
+
+
+
 4. 🎨 Global Styling
 To enable Bootstrap throughout the application, add this import to your src/main.jsx:
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 5. 🚀 Run the Application
 Start the development server:
 
